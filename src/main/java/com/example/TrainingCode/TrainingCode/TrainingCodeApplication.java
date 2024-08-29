@@ -11,7 +11,7 @@ public class TrainingCodeApplication {
 	{
 		SpringApplication.run(TrainingCodeApplication.class, args);
 
-		taskFactory.CreateTask("condicional")
+		taskFactory.CreateTask("Java Output Formatting")
 						.Run();
 	}
 

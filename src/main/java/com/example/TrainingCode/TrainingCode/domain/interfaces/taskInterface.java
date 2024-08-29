@@ -1,10 +1,13 @@
 package com.example.TrainingCode.TrainingCode.domain.interfaces;
 
-import com.example.TrainingCode.TrainingCode.domain.enums.taskEnum;
 import org.springframework.stereotype.Component;
+
+import java.util.Scanner;
 
 @Component
 public interface taskInterface {
+    Scanner scanner = new Scanner(System.in);
+
     //Metodo que roda a task
-    public void Run();
+    void Run();
 }
