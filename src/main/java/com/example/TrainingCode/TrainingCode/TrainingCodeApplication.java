@@ -11,7 +11,7 @@ public class TrainingCodeApplication {
 	{
 		SpringApplication.run(TrainingCodeApplication.class, args);
 
-		taskFactory.CreateTask("Merge Two Sorted Lists")
+		taskFactory.CreateTask("Search Insert Position")
 						.Run();
 	}
 

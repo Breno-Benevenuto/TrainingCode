@@ -2,6 +2,7 @@ package com.example.TrainingCode.TrainingCode.domain.service;
 
 import com.example.TrainingCode.TrainingCode.domain.enums.taskEnum;
 import com.example.TrainingCode.TrainingCode.domain.interfaces.taskInterface;
+import com.example.TrainingCode.TrainingCode.tasks.searchInsertPosition;
 import com.example.TrainingCode.TrainingCode.tasks.mergeTwoSortedLists;
 import com.example.TrainingCode.TrainingCode.tasks.condicional;
 import com.example.TrainingCode.TrainingCode.tasks.stringFormat;
@@ -19,6 +20,7 @@ public class taskFactory {
         create.put(taskEnum.STRING_FORMAT.getName().equalsIgnoreCase(taskName), new stringFormat());
         create.put(taskEnum.STRING_FORMAT_2.getName().equalsIgnoreCase(taskName), new stringFormat2());
         create.put(taskEnum.Merge_Two_Sorted_Lists.getName().equalsIgnoreCase(taskName), new mergeTwoSortedLists());
+        create.put(taskEnum.Search_Insert_Position.getName().equalsIgnoreCase(taskName), new searchInsertPosition());
 
         return create.get(true);
     }
