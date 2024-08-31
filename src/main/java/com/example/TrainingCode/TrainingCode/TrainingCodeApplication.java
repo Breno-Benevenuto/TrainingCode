@@ -11,7 +11,7 @@ public class TrainingCodeApplication {
 	{
 		SpringApplication.run(TrainingCodeApplication.class, args);
 
-		taskFactory.CreateTask("Java Output Formatting")
+		taskFactory.CreateTask("Merge Two Sorted Lists")
 						.Run();
 	}
 
